@@ -23,3 +23,33 @@ Do visit my blog for better explanations: https://machinelearningprojects.net/fl
     -git clone https://github.com/vipulwarthe/Flight-Price-Prediction.git
     -pip install -r requirements.txt
     -python app.py
+
+
+## ERRORS RESOLVED:
+
+# install the library to read the dataset  (error resolved for this library)
+
+    !pip install openpyxl
+
+
+# value error for Indigo resolved - Use only the numeric columns for the correlation matrix
+
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    # Filter numeric columns only
+    numeric_data = train_data.select_dtypes(include=['number'])
+
+    plt.figure(figsize=(10,10))
+    sns.heatmap(numeric_data.corr(), cmap='viridis', annot=True)
+    plt.show()
+
+# Plotting the residuals  - error resolved distplot function is depricated and recommended to use sns.histplot() or sns.kdeplot() instead.
+
+    plt.figure(figsize=(8,8))
+    sns.histplot(y_test - prediction, kde=True)
+    plt.title("Residuals Distribution")
+    plt.xlabel("Residuals")
+    plt.ylabel("Frequency")
+    plt.show()
+    
