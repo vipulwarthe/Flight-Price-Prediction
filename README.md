@@ -10,3 +10,16 @@
 Do visit my blog for better explanations: https://machinelearningprojects.net/flight-price-prediction/
   
 ![](ss.png)
+
+# Commands for run above project for flight price prediction:
+
+    -sudo apt-get update && sudo apt-get upgrade -y   
+    -sudo apt install python3-venv -y         
+    -python3 -m venv mlenv               
+    -source mlenv/bin/activate                
+    -deactivate                               
+    -mkdir mlproject                          
+    -cd mlproject                             
+    -git clone https://github.com/vipulwarthe/Flight-Price-Prediction.git
+    -pip install -r requirements.txt
+    -python app.py
