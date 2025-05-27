@@ -4,6 +4,7 @@ seaborn
 scikit-learn
 matplotlib
 datetime
+gunicorn
 openpyxl
 flask
 flask_cors
