@@ -57,5 +57,14 @@ Do visit my blog for better explanations: https://machinelearningprojects.net/fl
        plt.ylabel("Frequency")
        plt.show()
 
+# Deployment using ECR and ECS
+
+* create one instance with t2.medium and connect
+* Install docker
+* Install awscli
+* configure aws
+* create ECR repo and run push commands on server
+* create ECS cluster, task definaton and then create task and run the task
+* access the application using cluster IP
    
    
