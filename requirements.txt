@@ -1,0 +1,9 @@
+numpy
+pandas
+seaborn
+scikit-learn
+matplotlib
+datetime
+openpyxl
+flask
+flask_cors
