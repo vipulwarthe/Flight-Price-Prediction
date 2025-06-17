@@ -11,9 +11,9 @@ link for project: https://machinelearningprojects.net/flight-price-prediction/
   
 ![](ss.png)
 
-# orignal github link: https://github.com/sharmaji27/Flight-Price-Prediction
+## orignal github link: https://github.com/sharmaji27/Flight-Price-Prediction
 
-# install the python environment, dependancies and run the ipynb file and deploy the app
+## install the python environment, dependancies and run the ipynb file and deploy the app
 
     sudo apt update  
     sudo apt install python3-venv -y         
